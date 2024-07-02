@@ -5,7 +5,7 @@ DOMAIN: INTERNET OF THINGS(IOT)
 DURATION: JUNE TO JULY 2024
 MENTOR: SANTHOSH KUMAR
 
-OVER VIEW OF THE PROJECT
+OVERVIEW OF THE PROJECT
 PROJECT: SMART HOME AUTOMATION SYSTEM
 OBJECTIVE:
 The rise of home automation systems has revolutionized ways people interact with their homes. 
@@ -29,4 +29,35 @@ COMPONENTS USED:
 – Breadboard
 – Jumper wires
 
-CIRCUIT DIAGRAM:
+STEPS TO BUILD SMART HOME AUTOMATION SYSTEM:
+Step 1: Connecting the Components
+
+Begin by connecting the relay module with the Arduino Uno board. Connect the VCC pin of the relay module to the 5V pin on the Arduino board, and connect the GND pin on the relay module to the GND port on the Arduino board.
+
+Then attach the LED to the relay module. Connect the positive end of the LED to the NO (Normally Open) pin of the relay module and the other leg of the LED to the GND pin of the Arduino board.
+
+Connect the light sensor as well as the temperature and humidity sensors and ultrasonic sensors to the Arduino Uno board. Connect the signals pins of the sensors to the analog pins on the Arduino board.
+
+Connect the motor to the Arduino Uno board. Connect the signal pin from the motor to one of the digital pins on the Arduino board.
+
+Then finally, connect then the Bluetooth module to the Arduino Uno board. Connect the TX port of the Bluetooth module to the RX pin of the Arduino board, and connect the RX pin of the Bluetooth module to the TX pin on the Arduino board.
+
+Step 2: Programming the Arduino
+
+The next step is create the program to the Arduino board. You can make use of the Arduino IDE (Integrated Development Environment) to write and upload the code to the board.
+
+The code should contain functions that analyze sensor’s data as well as control the servo motor and LED and connect to the Bluetooth module.
+
+Step 3: Building the Android App
+
+For controlling the home automation smart system, you’ll need to create an Android application that communicates with the Arduino board using Bluetooth.
+
+You can utilize Android Studio, a popular integrated development environment that is used for Android application development. The app should have an interface for users that lets the user control the servo motor, LED and read sensor information.
+
+Step 4: Testing the System
+After you’ve written the code and developed the Android app, it’s now time to evaluate the system. Connect the Bluetooth module to your Android smartphone and then turn on the home automation smart system.
+
+Make use of the Android app to control the servo motor and LED and read sensor information.
+
+CONCLUSION:
+With smart home automation system it is possible to manage and automate various home appliances and devices and monitor the surroundings inside your home.
